@@ -1,0 +1,30 @@
+.title {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.recorder {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  pointer-events: none;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.audioList {
+  list-style: none;
+}
